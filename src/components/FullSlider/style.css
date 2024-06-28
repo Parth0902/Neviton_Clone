@@ -1,0 +1,21 @@
+.embla {
+  overflow: hidden;
+  width: 100%;
+}
+
+.embla__container {
+  display: flex;
+  will-change: transform;
+  /* Adjusts spacing to account for the first slide margin */
+  width: 100%;
+
+}
+
+.embla__slide {
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+ /* Adjust if slides should be less than full width */
+  /* margin-left: 30px; Space between slides */
+
+}

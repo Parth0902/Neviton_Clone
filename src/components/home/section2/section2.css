@@ -1,0 +1,43 @@
+
+
+.box1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+}
+
+.box2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 80px;
+  justify-content: flex-end;
+}
+
+.lowerhalf--text {
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+}
+
+
+
+@media (max-width: 1280px) {
+  .box1 {
+    padding-left: 10px;
+  }
+  .box2 {
+    padding-right: 10px;
+  }  
+
+}
+
+@media (max-width: 1080px) {
+  .box2 {
+    align-items: flex-start;
+    padding-left: 10px;
+  }
+}
+

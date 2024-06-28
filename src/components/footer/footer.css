@@ -1,0 +1,130 @@
+footer {
+    width: 100%;
+}
+
+#footer--top {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 64px;
+    padding-bottom: 56px;
+    width: 100%;
+    gap: 60px;
+}
+
+.footer--grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.footer--row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer--col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer--col h4 {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    /* 24px */
+}
+
+.footer--col a {
+    color: #858a8e;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 24px */
+}
+
+.footer--col span {
+    color: #858a8e;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+}
+
+#footer--bottom {
+    display: flex;
+    align-items: center;
+    padding-inline: 80px;
+    padding-block: 40px;
+    background: #f2f3f7;
+    justify-content: space-between;
+}
+
+#footer--bottom p {
+    color: #21262c;
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%;
+}
+
+.social-media {
+    display: flex;
+    gap: 28px;
+}
+
+@media screen and (max-width: 1280px) {
+    #footer--bottom {
+        justify-content: center;
+    }
+
+    #footer--top{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #footer--bottom .social-media {
+        display: none;
+    }
+
+    #footer--bottom p {
+        text-align: center;
+    }
+    .footer--grid{
+        gap:15px;
+    }
+    .footer--row {
+        gap:15px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer--grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    #footer--top {
+        padding-inline: 1rem;
+    }
+}
+
+.follow--us {
+    color: #858a8e;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    /* 19.2px */
+}

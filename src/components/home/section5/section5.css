@@ -1,0 +1,25 @@
+#SuccessStories{
+    padding-top: 94px;
+    padding-bottom: 80px;
+}
+
+#SuccessStories h4{
+    color: #21262C;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-align: center;
+}
+
+#SuccessStories h4 span{
+    color: #21262C;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 60px */
+}
+
+.sldiers{
+    width: 100%;
+}

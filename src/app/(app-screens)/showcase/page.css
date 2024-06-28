@@ -1,0 +1,74 @@
+.bg-hero {
+    background: url("/CaseStudyPageTop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-heading1 {
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    /* 28.8px */
+}
+
+.section-heading2 {
+    color: #f3f4f8;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 89.6px */
+}
+
+.scroll-text {
+    color: #fff;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 19.2px */
+}
+
+.point_heading span {
+    color: #2B5F85;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 75.6px */
+}
+
+.points {
+    color: #2B5F85;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 33.6px */
+}
+
+@media screen and (max-width: 1280px) {
+    .section-heading1 {
+        font-size: 18px;
+    }
+
+    .section-heading2 {
+        font-size: 44px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .point_heading span {
+        font-size: 40px;
+    }
+
+    .points {
+        font-size: 18px;
+    }
+}
+
+

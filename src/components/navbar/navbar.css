@@ -1,0 +1,62 @@
+nav {
+	display: flex;
+	height: 78px;
+	border: 0px, 0px, 0.2px, 0px;
+	width: 100%;
+}
+
+#logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 2;
+}
+
+#Links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#Links ul {
+	display: flex;
+	gap: 30px;
+}
+
+#Links ul li {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+
+#NavBtn {
+	flex: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+#NavBtn button {
+	width: 134px;
+	height: 38px;
+	border-radius: 6px;
+	background: rgba(22, 69, 236, 0.8);
+	border: none;
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+
+#NavBtn button:hover{
+	background-color: #8560f3;
+}

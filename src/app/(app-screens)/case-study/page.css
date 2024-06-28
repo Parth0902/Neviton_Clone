@@ -1,0 +1,117 @@
+/* Image Container */
+.case-study .container {
+    position: relative;
+    height: 600px;
+    width: 600px;
+    flex-shrink: 0;
+}
+
+.case-study .img {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.case-study .img1 {
+    position: absolute;
+    z-index: 2;
+    /* Place this image in front of the img1 */
+    width: 100%;
+    top: 30px;
+    left: 30px;
+}
+
+.case-study .img2 {
+    position: absolute;
+    z-index: 2;
+    /* Place this image in front of the img1 */
+    width: 100%;
+    bottom: 30px;
+    left: 30px;
+}
+
+.case-study .img3 {
+    position: absolute;
+    z-index: 2;
+    /* Place this image in front of the img1 */
+    width: 100%;
+    top: 30px;
+    right: 30px;
+}
+
+.case-study .img4 {
+    position: absolute;
+    z-index: 2;
+    /* Place this image in front of the img1 */
+    width: 100%;
+    bottom: 30px;
+    right: 30px;
+}
+
+.case-study .image {
+    height: 100%;
+    width: 100%;
+    border-radius: 24px;
+}
+
+.case-study .rectangle {
+    height: 100%;
+    width: 100%;
+    border-radius: 24px;
+    background: #deff80;
+}
+
+.case-study-hero-heading {
+    color: #1e1e1e;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 67.2px */
+}
+
+.case-study-hero-text {
+    width: 50%;
+}
+
+.case-study-hero-subtitle {
+    color: #606060;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 32px */
+    letter-spacing: 0.4px;
+}
+
+.case-study-hero-clients {
+    color: #1645ec;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    /* 39.2px */
+}
+
+.grid_Box {
+    background: #ccc2ff;
+}
+
+.grid_Box h2 {
+    color: #4a03a5;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 43.2px */
+}
+
+.grid_Box span {
+    color: #4a03a5;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}

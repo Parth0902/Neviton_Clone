@@ -1,0 +1,65 @@
+.blogs-hero-title {
+  color: #21262c;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 67.2px */
+  letter-spacing: 0.96px;
+}
+
+.blogs-hero-subheading {
+  color: #2a2c31;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 64.4px */
+}
+
+.blogs-hero-text {
+  color: #2a2c31;
+  font-size: 46px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.blogs-hero-description {
+  color: #263238;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 30.8px */
+}
+
+.blogs-read-more-button {
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 30.8px */
+  letter-spacing: 0.44px;
+}
+
+.all-blogs {
+  color: #1e1e1e;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 43.2px */
+}
+.all-blogs-bold {
+  color: #1e1e1e;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.blogs-results {
+  color: #858a8e;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 28px */
+}

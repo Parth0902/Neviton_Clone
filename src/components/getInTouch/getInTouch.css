@@ -1,0 +1,37 @@
+.getInTouch_text {
+    color: #f3f4f8;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    /* 60px */
+}
+
+.getInTouch {
+    background: #232dee;
+}
+
+.getInTouch_btn {
+    border-radius: 24px;
+    background: #fff;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.15);
+}
+
+.btn_text {
+    color: #21262c;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    /* 43.2px */
+}
+
+@media screen and (max-width: 768px) {
+    .getInTouch_text {
+        font-size: 24px;
+    }
+
+    .btn_text {
+        font-size: 20px;
+    }
+}

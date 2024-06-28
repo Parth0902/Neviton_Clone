@@ -1,0 +1,129 @@
+#Home_Hero{
+    position: relative;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('../../../assets/home/NvitonHero.jpeg') lightgray 50% / cover no-repeat;
+    height: 536px;
+}
+
+.section1--part1 {
+    position: relative;
+    background: url("/HomeScreenTop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 536px;
+}
+
+
+.bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 483px;
+    height: 483px;
+    border-radius: 50%;
+    opacity: 0.55;
+    background:
+        linear-gradient(to bottom right, #ffdd74 0%, rgba(255, 221, 116, 0) 50%) bottom right / 50% 50% no-repeat,
+        linear-gradient(to bottom left, #ffdd74 0%, rgba(255, 221, 116, 0) 50%) bottom left / 50% 50% no-repeat,
+        linear-gradient(to top left, #ffdd74 0%, rgba(255, 221, 116, 0) 50%) top left / 50% 50% no-repeat,
+        linear-gradient(to top right, #ffdd74 0%, rgba(255, 221, 116, 0) 50%) top right / 50% 50% no-repeat;
+}
+.header1 {
+    color: #fff;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -2.24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.header2 {
+    color: #fff;
+    font-size: 112px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -2.24px;
+    text-transform: uppercase;
+}
+
+.bottom_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.subheader {
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.btn {
+    background: #deff80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1280px) {
+    .header1 {
+        font-size: 60px;
+    }
+
+    .header2 {
+        font-size: 60px;
+    }
+
+    .section1--part1 {
+        height: 340px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header1 {
+        font-size: 60px;
+    }
+
+    .header2 {
+        font-size: 60px;
+    }
+
+    .subheader {
+        font-size: 22px;
+    }
+    .word1 {
+        font-size: 30px;
+    }
+
+    .word2 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 768px) {
+    .header1 {
+        font-size: 40px;
+    }
+
+    .header2 {
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 540px) {
+    .header1 {
+        font-size: 30px;
+    }
+
+    .header2 {
+        font-size: 30px;
+    }
+}
+
+
